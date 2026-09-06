@@ -66,9 +66,9 @@ También puedes ejecutar la clase `com.prueba.periferia.PeriferiaApplication` de
 
 La API queda disponible en:
 
-- **Base URL:** http://localhost:8080
-- **Swagger UI:** http://localhost:8080/swagger-ui.html
-- **OpenAPI JSON:** http://localhost:8080/api-docs
+- **Base URL:** http://localhost:8181
+- **Swagger UI:** http://localhost:8181/swagger-ui.html
+- **OpenAPI JSON:** http://localhost:8181/api-docs
 
 ## Endpoints principales
 
