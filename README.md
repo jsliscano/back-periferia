@@ -1,6 +1,24 @@
-# Periferia API
+## Periferia API
 
-Backend Spring Boot para registro/login de usuarios (JWT) y CRUD de tareas.
+Backend REST desarrollado con Spring Boot para una aplicación de gestión de tareas personales (To-Do App).
+
+La solución implementa autenticación y autorización mediante JWT, gestión de usuarios, CRUD de tareas, persistencia con JPA/Hibernate, validaciones, paginación, filtrado por estado y documentación interactiva mediante OpenAPI/Swagger.
+
+El backend está diseñado para ser consumido por aplicaciones frontend desarrolladas en Flutter e Ionic.
+
+## Descripción del proyecto
+
+La aplicación permite a los usuarios:
+
+Registrarse en la plataforma.
+Iniciar sesión de forma segura.
+Obtener un token JWT para autenticación.
+Crear tareas personales.
+Consultar sus tareas de forma paginada.
+Filtrar tareas por estado.
+Actualizar tareas.
+Eliminar tareas.
+Recibir respuestas y mensajes de error controlados desde la API.
 
 ## Requisitos
 
