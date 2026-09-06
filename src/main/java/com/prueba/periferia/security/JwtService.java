@@ -58,8 +58,12 @@ public class JwtService {
 	}
 
 	public boolean isTokenValid(String token) {
-		Claims claims = parseClaims(token);
-		return claims.getExpiration().after(new Date());
+		try {
+			Claims claims = parseClaims(token);
+			return claims.getExpiration().after(new Date());
+		} catch (Exception ex) {
+			return false;
+		}
 	}
 
 }

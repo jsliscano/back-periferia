@@ -202,3 +202,17 @@ config      → Security y OpenAPI
 - El password se almacena hasheado con BCrypt.
 - El JWT expira en 24 horas (`app.jwt.expiration-ms`).
 - Cambia `app.jwt.secret` en producción.
+
+## Tests
+
+Ejecutar unit tests (JUnit 5 + Mockito) y verificar cobertura (>= 80%):
+
+```bash
+.\gradlew.bat test jacocoTestCoverageVerification
+```
+
+Reporte HTML de cobertura:
+
+```text
+build/reports/jacoco/test/html/index.html
+```
